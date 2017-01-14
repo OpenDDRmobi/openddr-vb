@@ -45,8 +45,8 @@ Friend NotInheritable Class Loader
     ''' <summary>
     '''  Default new Device data Loader
     ''' </summary>
-    ''' <exception cref="DeviceMapException">Thrown when (InnerException)<ul>
-    '''                                                   <li>NullReferenceException : DeviceMap ConnectionStrings missing in config file</li>
+    ''' <exception cref="OpenDDRException">Thrown when (InnerException)<ul>
+    '''                                                   <li>NullReferenceException : OpenDDR ConnectionStrings missing in config file</li>
     '''                                                   <li>WebException : URL Loader exception</li>
     '''                                                   <li>ArgumentException : File Loader exception</li> 
     '''                                                   <li>ArgumentException : Loader exception</li> 
@@ -79,13 +79,13 @@ Friend NotInheritable Class Loader
                 Next
             End If
         Catch ex As NullReferenceException
-            Throw New DeviceMapException(String.Format(Constants.CONFIG_ERROR_CONN_FORMAT, AppDomain.CurrentDomain.SetupInformation.ConfigurationFile), ex)
+            Throw New OpenDDRException(String.Format(Constants.CONFIG_ERROR_CONN_FORMAT, AppDomain.CurrentDomain.SetupInformation.ConfigurationFile), ex)
         Catch ex As System.Net.WebException
-            Throw New DeviceMapException(String.Format(Constants.WEB_ERROR_FORMAT, ex.Message), ex)
+            Throw New OpenDDRException(String.Format(Constants.WEB_ERROR_FORMAT, ex.Message), ex)
         Catch ex As ArgumentException
-            Throw New DeviceMapException(ex.Message, ex)
+            Throw New OpenDDRException(ex.Message, ex)
         Catch ex As Exception
-            Throw New DeviceMapException(ex.Message, ex)
+            Throw New OpenDDRException(ex.Message, ex)
         End Try
     End Sub
 #End Region ' Constructor

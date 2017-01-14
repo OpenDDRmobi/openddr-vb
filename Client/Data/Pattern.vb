@@ -22,8 +22,8 @@ Imports System.Text
 '''  Device Pattern data
 ''' </summary>
 ''' <author>eberhard speer jr.</author>
-''' <remarks>Apache's DeviceMap Project .Net version<br />
-'''          ported from Reza Naghibi's Pattern.java</remarks>
+''' <remarks>OpenDDR VB .Net version<br />
+'''          ported from OpenDDR Classifier Pattern.java</remarks>
 Public NotInheritable Class Pattern
     '
     Private patternList As IList(Of IList(Of String))

@@ -22,8 +22,8 @@ Imports System.Text
 '''  XML Parser
 ''' </summary>
 ''' <author>eberhard speer jr.</author>
-''' <remarks>Apache's DeviceMap Project .Net version<br /> 
-'''          ported from Reza Naghibi's XMLParser.java</remarks>
+''' <remarks>OpenDDR Project VB .Net version<br /> 
+'''          ported from OpenDDR Classifier XMLParser.java</remarks>
 Friend NotInheritable Class XmlParser
     '
     Private inStream As IO.StreamReader

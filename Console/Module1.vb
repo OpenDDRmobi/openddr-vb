@@ -17,7 +17,7 @@
 '   under the License.
 #End Region ' Header
 '
-Imports DeviceMap
+Imports OpenDDR
 ''' <summary>
 '''  Console app
 ''' </summary>
@@ -31,19 +31,19 @@ Module Module1
         ' Load
         Dim stopWatch As New Diagnostics.Stopwatch()
         stopWatch.Start()
-        Dim client As DeviceMapClient = Nothing
+        Dim client As Classifier = Nothing
         Console.WriteLine("Loading...")
         Try
-            client = New DeviceMapClient()
-        Catch ex As DeviceMapException
-            '' Util.WriteEntry("DeviceMap", ex.Message, EventLogEntryType.Error, ex)
+            client = New Classifier()
+        Catch ex As OpenDDRException
+            '' Util.WriteEntry("OpenDDR", ex.Message, EventLogEntryType.Error, ex)
             Console.WriteLine(ex.Message)
         End Try
         stopWatch.Stop()
         Console.Clear()
         If Not IsNothing(client) Then
             Console.WriteLine("Loaded !")
-            Console.WriteLine(String.Format("DeviceMap Client : {0}", client.Version))
+            Console.WriteLine(String.Format("OpenDDR Classifier Client : {0}", client.Version))
             Console.WriteLine(String.Format("Loaded {0} devices with {1} patterns in {2} ms", client.DeviceCount.ToString, client.PatternCount.ToString, stopWatch.Elapsed.TotalMilliseconds.ToString))
             stopWatch.Restart()
             ' cold run
@@ -76,7 +76,7 @@ Module Module1
             Console.WriteLine("Press any key to finish")
             Console.ReadKey()
         Else
-            Console.WriteLine("DeviceMap Client or Data not found.")
+            Console.WriteLine("OpenDDR Client or Data not found.")
             Console.WriteLine()
             Console.WriteLine("You may need to check your configuration '" + Process.GetCurrentProcess().ProcessName + ".exe.config'.")
         End If
@@ -84,10 +84,10 @@ Module Module1
     ''' <summary>
     '''  Maps User-Agent String to Device
     ''' </summary>
-    ''' <param name="client">DeviceMapClient</param>
+    ''' <param name="client">ClassifierClient</param>
     ''' <param name="text">User-Agent String</param>
     ''' <remarks>-</remarks>
-    Private Sub Map(client As DeviceMapClient, text As String)
+    Private Sub Map(client As Classifier, text As String)
         Dim stopWatch As New Diagnostics.Stopwatch()
         stopWatch.Start()
         Dim ret As IDictionary(Of String, String) = client.Map(text)

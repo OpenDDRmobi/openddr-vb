@@ -111,7 +111,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DeviceMap-ASF.ico" />
+    <Content Include="openddr.ico" />
     <Content Include="ua_strings.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

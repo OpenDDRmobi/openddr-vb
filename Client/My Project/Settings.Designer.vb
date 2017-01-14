@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.DeviceMap.My.MySettings
+        Friend ReadOnly Property Settings() As Global.OpenDDR.My.MySettings
             Get
-                Return Global.DeviceMap.My.MySettings.Default
+                Return Global.OpenDDR.My.MySettings.Default
             End Get
         End Property
     End Module

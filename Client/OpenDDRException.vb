@@ -17,15 +17,15 @@
 '   under the License.
 #End Region ' Header
 ''' <summary>
-'''   DeviceMap Exception
+'''   OpenDDR Exception
 ''' </summary>
 ''' <remarks>-</remarks>
 <Serializable>
-Public NotInheritable Class DeviceMapException : Inherits ApplicationException
+Public NotInheritable Class OpenDDRException : Inherits ApplicationException
     '
 #Region "Constructors"
     ''' <summary>
-    '''  DeviceMap Exception
+    '''  OpenDDR Exception
     ''' </summary>
     ''' <param name="msg">Message</param>
     ''' <remarks>-</remarks>

@@ -23,8 +23,8 @@ Imports System.Text
 ''' </summary>
 ''' <author>Eberhard Speer jr.</author>
 ''' <author>Werner Keil</author>
-''' <remarks>Apache's DeviceMap Project .Net version 
-'''          ported from Reza Naghibi's Util.java</remarks>
+''' <remarks>OpenDDR Project VB .Net version<br /> 
+'''          ported from OpenDDR Classifier Util.java</remarks>
 Public NotInheritable Class Util
     ''' <summary>
     '''  Inline Assign Helper

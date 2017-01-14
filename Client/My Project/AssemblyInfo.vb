@@ -7,11 +7,11 @@ Imports System.Runtime.InteropServices
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
-<Assembly: AssemblyTitle("DeviceMap")>
-<Assembly: AssemblyDescription("VB.Net version of DeviceMap")>
-<Assembly: AssemblyCompany("ASF")> 
-<Assembly: AssemblyProduct("DeviceMap")> 
-<Assembly: AssemblyCopyright("Copyright © ASF  2015")> 
+<Assembly: AssemblyTitle("OpenDDR")>
+<Assembly: AssemblyDescription("VB.Net version of OpenDDR Classifier")>
+<Assembly: AssemblyCompany("OpenDDR")> 
+<Assembly: AssemblyProduct("OpenDDR Classifier")> 
+<Assembly: AssemblyCopyright("Copyright © OpenDDR LLC. and others 2015-2017")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: CLSCompliant(True)> 
 <Assembly: ComVisible(False)>

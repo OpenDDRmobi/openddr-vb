@@ -20,8 +20,8 @@
 '''  Device
 ''' </summary>
 ''' <author>eberhard speer jr.</author>
-''' <remarks>Apache's DeviceMap Project .Net version<br /> 
-'''          ported from Reza Naghibi's Device.java</remarks>
+''' <remarks>OpenDDR VB .Net version<br /> 
+'''          ported from OpenDDR Classifier Device.java</remarks>
 Public NotInheritable Class Device
     '
     Private builderType As String = String.Empty

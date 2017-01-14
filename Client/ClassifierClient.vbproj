@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2B8A4B1A-ADDF-4A37-BAD2-C389D69858B0}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>DeviceMap</RootNamespace>
-    <AssemblyName>DeviceMap</AssemblyName>
+    <RootNamespace>OpenDDR</RootNamespace>
+    <AssemblyName>OpenDDR</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -19,7 +19,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>DeviceMap.xml</DocumentationFile>
+    <DocumentationFile>ClassifierClient.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -28,7 +28,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>DeviceMap.xml</DocumentationFile>
+    <DocumentationFile>ClassifierClient.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -74,8 +74,8 @@
     <Compile Include="Constants.vb" />
     <Compile Include="Data\Device.vb" />
     <Compile Include="Data\Pattern.vb" />
-    <Compile Include="DeviceMapClient.vb" />
-    <Compile Include="DeviceMapException.vb" />
+    <Compile Include="ClassifierClient.vb" />
+    <Compile Include="OpenDDRException.vb" />
     <Compile Include="Loader\FileLoader.vb" />
     <Compile Include="Loader\ILoader.vb" />
     <Compile Include="Loader\Loader.vb" />

@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("DeviceMapConsole")> 
+<Assembly: AssemblyTitle("ClassifierConsole")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("DeviceMapConsole")> 
-<Assembly: AssemblyCopyright("Copyright ©  2015")> 
+<Assembly: AssemblyProduct("ClassifierConsole")> 
+<Assembly: AssemblyCopyright("Copyright ©  OpenDDR LLC. and others 2015-2017")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>

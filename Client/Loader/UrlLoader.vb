@@ -72,7 +72,7 @@ Friend NotInheritable Class UrlLoader : Implements ILoader
         resUrl = url.Trim
         Dim resStatus As Integer = 0
         Dim ddrRequest As HttpWebRequest = CType(WebRequest.Create(New Uri(resUrl)), HttpWebRequest)
-        ddrRequest.UserAgent = String.Format("{0} {1}", Constants.DEVICEMAP_UA, Constants.RELEASE_VERSION)
+        ddrRequest.UserAgent = String.Format("{0} {1}", Constants.DEVICE_UA, Constants.RELEASE_VERSION)
         ddrRequest.AllowAutoRedirect = False
         Dim ddrResponse As WebResponse = ddrRequest.GetResponse()
         resStatus = CType(ddrResponse, HttpWebResponse).StatusCode

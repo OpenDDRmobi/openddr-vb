@@ -32,7 +32,7 @@ OpenDDR VB.NET Classifier Client and Console have been tested with .NET Framewor
 
 To compile the sources you may use
 
-- Visual Studio (DeviceMap.sln file works with VS 2010 or above, Community Edition is sufficient)
+- Visual Studio (OpenDDR.sln file works with VS 2010 or above, Community Edition is sufficient)
 - Mono Project (http://www.mono-project.com/) and MonoDevelop (http://www.monodevelop.com/)
 
 We currently don't provide a MonoDevelop solution, but the project layout should be compatible with it. And you're more than welcome to contribute solution files if you use MonDevelop (please create a JIRA ticket under https://issues.apache.org/jira/browse/DMAP/component/12323107 ".NET Client" and attach your files)
@@ -41,11 +41,11 @@ We currently don't provide a MonoDevelop solution, but the project layout should
 
 ## Configuration
 ClassifierConsole comes with a config file ClassifierConsole.exe.config, the runtime version of App.config in the Visual Studio project.
-It contains the connection string for the DeviceMap data source: "http://openddr.mobi/data/"
-This connection URL points to the latest available DeviceMap data version online. 
-If you prefer a different version or a local copy of the DeviceMap repository, you may override ClassifierConsole by pointing to a different source. 
+It contains the connection string for the OpenDDR data source: "http://openddr.mobi/data/"
+This connection URL points to the latest available OpenDDR Data version online. 
+If you prefer a different version or a local copy of the OpenDDR data repository, you may override ClassifierConsole by pointing to a different source. 
 Either a URL or the location of a folder in the file system.
 
 The config file also contains the supported .NET runtime version.
 <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
-You should normally not have to change this. Doing so is at your own risk. DeviceMap VB.NET client does not support .NET below 4.0, but in case you have multiple versions of the .NET Framework installed, you may chose a particular one, e.g. if you face problems running ClassifierConsole.
+You should normally not have to change this. Doing so is at your own risk. OpenDDR VB.NET client does not support .NET below 4.0, but in case you have multiple versions of the .NET Framework installed, you may chose a particular one, e.g. if you face problems running ClassifierConsole.
