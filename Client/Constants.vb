@@ -10,7 +10,7 @@
 
     Public Const DEVICE_TOSTRING_FORMAT As String = "Id='{0}', ParentId='{1}', Type='{2}', Pattern={3}, Attributes={4}"
     Public Const HTTP_PREFIX As String = "http"
-    Public Const RELEASE_VERSION As String = "1.0.1"
+    Public Const RELEASE_VERSION As String = "1.0.3" ' TODO could we crop this for the assembly info?
     Public Const SIMPLE As String = "simple"
     Public Const USER_AGENT_SPLIT As String = " |-|_|/|\\|\[|\]|\(|\)|;"
     Public Const VERSION_FORMAT As String = "Version : {0}, Build : {1}"
