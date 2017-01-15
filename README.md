@@ -32,7 +32,7 @@ OpenDDR VB.NET Classifier Client and Console have been tested with .NET Framewor
 
 To compile the sources you may use
 
-- Visual Studio (OpenDDR.sln file works with VS 2010 or above, Community Edition is sufficient)
+- Visual Studio (ClassifierClient.sln file works with VS 2010 or above, Community Edition is sufficient)
 - Mono Project (http://www.mono-project.com/) and MonoDevelop (http://www.monodevelop.com/)
 
 We currently don't provide a MonoDevelop solution, but the project layout should be compatible with it. And you're more than welcome to contribute solution files if you use MonDevelop (please create an issue under https://github.com/OpenDDRmobi/openddr-vb/issues and attach your files or propose a Pull Request)
