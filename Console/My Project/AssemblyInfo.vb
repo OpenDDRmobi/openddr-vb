@@ -8,9 +8,9 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ClassifierConsole")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyTitle("OpenDDR Classifier Console")>
+<Assembly: AssemblyDescription("VB.net Version of OpenDDR Classifier Console")>
+<Assembly: AssemblyCompany("OpenDDR")>
 <Assembly: AssemblyProduct("ClassifierConsole")> 
 <Assembly: AssemblyCopyright("Copyright ©  OpenDDR LLC. and others 2015-2017")> 
 <Assembly: AssemblyTrademark("")> 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.1.0")>
-<Assembly: AssemblyFileVersion("1.0.1.0")>
+<Assembly: AssemblyVersion("1.0.3.0")>
+<Assembly: AssemblyFileVersion("1.0.3.0")>
