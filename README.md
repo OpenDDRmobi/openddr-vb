@@ -45,6 +45,7 @@ It contains the connection string for the OpenDDR data source: "http://openddr.m
 This connection URL points to the latest available OpenDDR Data version online. 
 If you prefer a different version or a local copy of the OpenDDR data repository, you may override ClassifierConsole by pointing to a different source. 
 Either a URL or the location of a folder in the file system.
+This is currently also backward-compatible with Apache DeviceMap and its URLs.
 
 The config file also contains the supported .NET runtime version.
 <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
