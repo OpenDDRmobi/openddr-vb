@@ -74,7 +74,7 @@
     <Compile Include="Constants.vb" />
     <Compile Include="Data\Device.vb" />
     <Compile Include="Data\Pattern.vb" />
-    <Compile Include="ClassifierClient.vb" />
+    <Compile Include="Classifier.vb" />
     <Compile Include="OpenDDRException.vb" />
     <Compile Include="Loader\FileLoader.vb" />
     <Compile Include="Loader\ILoader.vb" />
