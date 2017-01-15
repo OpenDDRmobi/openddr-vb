@@ -1,5 +1,5 @@
 ﻿Public Class Constants
-    Public Const APP_NAME As String = "OpenDDR"
+    Public Const APP_NAME As String = "ClassifierClient"
     ' data files
     Public Const BUILDER_DATA As String = "BuilderDataSource.xml"
     Public Const BUILDER_DATA_PATCH As String = "BuilderDataSourcePatch.xml"

@@ -11,8 +11,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("OpenDDR Classifier Console")>
 <Assembly: AssemblyDescription("VB.net Version of OpenDDR Classifier Console")>
 <Assembly: AssemblyCompany("OpenDDR")>
-<Assembly: AssemblyProduct("ClassifierConsole")> 
-<Assembly: AssemblyCopyright("Copyright ©  OpenDDR LLC. and others 2015-2017")> 
+<Assembly: AssemblyProduct("ClassifierConsole")>
+<Assembly: AssemblyCopyright("Copyright ©  OpenDDR LLC and others 2011-2017")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
