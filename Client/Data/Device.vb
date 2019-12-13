@@ -1,5 +1,5 @@
 #Region "Header"
-' Copyright (c) 2011-2017 OpenDDR LLC and others. All rights reserved.
+' Copyright (c) 2011-2019 OpenDDR LLC and others. All rights reserved.
 '
 ' Licensed under the Apache License, Version 2.0 (the "License");
 ' you may Not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 '''  Device
 ''' </summary>
 ''' <author>eberhard speer jr.</author>
+''' <author>Werner Keil</author>
 ''' <remarks>OpenDDR VB .Net version<br /> 
 '''          ported from OpenDDR Classifier Device.java</remarks>
 Public NotInheritable Class Device
