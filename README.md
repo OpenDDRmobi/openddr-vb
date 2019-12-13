@@ -3,10 +3,9 @@ OpenDDR VB.NET Client
 
 CLS (ISO/IEC 23271:2012) compliant .NET version of OpenDDR Classifier
 
-This client is used to classify browser User-Agent strings.
-
 [![Build status](https://ci.appveyor.com/api/projects/status/2gruv2nrmyvrge4r?svg=true)](https://ci.appveyor.com/project/keilw/openddr-vb)
 
+This client is used to classify browser User-Agent strings.
 
 The client requires openddr-data. Data can be loaded via:
 
